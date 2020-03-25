@@ -40,6 +40,7 @@ def now_serving(array = [])
     puts "There is nobody waiting to be served!"
   #since the array is not empty we will run this code
   else
+    #using .shift i remove the first element from the array and return it in my puts
     puts "Currently serving #{array.shift}."
   end
 end
